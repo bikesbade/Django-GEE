@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+  <title>Django and GEE</title>
+
+  {{ map.header.render|safe }}
+
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="col-lg-12">
+      {{map.html.render|safe}}
+    </div>
+  </div>
+
+  <script>
+
+  {{ map.script.render|safe }}
+    
+  </script>
+
+</body>
