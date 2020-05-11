@@ -53,13 +53,7 @@ class home(TemplateView):
                     control = True
                     ).add_to(m)
             
-        NepalLayer = folium.GeoJson(
-                    data = Nepal.getInfo(),
-                    name = 'Nepal',
-                    overlay = True,
-                    control = True
-                )
-        NepalLayer.add_to(m)
+        
 
         
 
